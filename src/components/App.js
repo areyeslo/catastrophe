@@ -1,9 +1,12 @@
 import React from 'react';
+import LogContainer from './LogContainer';
 import '../app.css';
 
 const App = () => {
   return (
-    <h1>Hello from React!!</h1>
+    <div id="container" className="inner-container">
+      <LogContainer/>
+    </div>
   )
 }
 
